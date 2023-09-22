@@ -13,13 +13,25 @@ import { CounterdisplayComponent } from './component/counterdisplay/counterdispl
 import { counterReducer } from './shared/store/counter.reducer';
 import { MaterialUiModule } from './shared/material-ui/material-ui.module';
 import { CustomcounterComponent } from './component/customcounter/customcounter.component';
+import { MenuheaderComponent } from './component/menuheader/menuheader.component';
+import { HomeComponent } from './component/home/home.component';
+import { EditblogComponent } from './component/editblog/editblog.component';
+import { LoadingspinnerComponent } from './component/loadingspinner/loadingspinner.component';
+import { CounterComponent } from './component/counter/counter.component';
+import { BlogComponent } from './component/blog/blog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CounterbuttonComponent,
     CounterdisplayComponent,
-    CustomcounterComponent
+    CustomcounterComponent,
+    MenuheaderComponent,
+    HomeComponent,
+    EditblogComponent,
+    LoadingspinnerComponent,
+    CounterComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
